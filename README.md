@@ -2,7 +2,7 @@
 
 ## **Author Details**
 - **Name:** Joshua Alana  
-- **School:** African Leadership  
+- **School:** African Leadership University  
 - **Year:** 2  
 - **Term:** 3  
 

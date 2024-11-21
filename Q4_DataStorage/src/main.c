@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "../include/student.h"
 
 // function to input data for a single student
@@ -29,7 +30,7 @@ scanf("%d", &student->blockchainGrade);
 // function to save student data to a file
 
 void saveStudentsToFile(Student* students, int count, const char* filename) {
-File* file = fopen(filename, "w");
+FILE* file = fopen(filename, "w");
 if(!file) {
 perror("Failed to open file");
 exit(1);
@@ -39,7 +40,7 @@ exit(1);
 fprintf(file, "Name, Programming in C, Mobile App Development, Blockchain Development\n");
 
 for (int i = 0; i < count; i++) {
-fprintf(file, "%s, %d, %d\n", students[i].name, students[i].programmingGrade, students[i].mobileGrade, students[i].blockchainGrade);
+fprintf(file, "%s, %d, %d, %d\n", students[i].name, students[i].programmingGrade, students[i].mobileGrade, students[i].blockchainGrade);
 
 }
 

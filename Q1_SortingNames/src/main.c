@@ -5,8 +5,20 @@
 #include "../include/utils.h"
 
 int main() {
-    char names[100][50] = {"Alice", "Bob", "Charlie", "David", "Eve"}; // Example names
-    int n = 5; // Initial number of names
+    char names[100][50] = {
+    "Joshua", "Divine", "King", "David", "Ayo", "Aaron", "Taddy", "Mary", "Grace", "Esther",
+    "Paul", "Peter", "John", "James", "Matthew", "Mark", "Luke", "Timothy", "Philip", "Andrew",
+    "Simon", "Jude", "Levi", "Moses", "Aaron", "Daniel", "Samuel", "Joseph", "Jonathan", "Nathan",
+    "Ezekiel", "Isaiah", "Jeremiah", "Elijah", "Elisha", "Obadiah", "Micah", "Zephaniah", "Hosea", "Joel",
+    "Amos", "Habakkuk", "Malachi", "Nahum", "Zechariah", "Hezekiah", "Abraham", "Isaac", "Jacob", "Noah",
+    "Adam", "Eve", "Ruth", "Naomi", "Hannah", "Deborah", "Sarah", "Rachel", "Rebecca", "Leah",
+    "Delilah", "Jezebel", "Gideon", "Caleb", "Joshua", "Saul", "David", "Solomon", "Abigail", "Bathsheba",
+    "Tamar", "Rahab", "Boaz", "Job", "Ezra", "Nehemiah", "Esther", "Mordecai", "Haman", "Zerubbabel",
+    "Jonah", "Isaiah", "Jeremiah", "Ezekiel", "Daniel", "Hosea", "Joel", "Amos", "Obadiah", "Habakkuk",
+    "Zephaniah", "Haggai", "Zechariah", "Malachi", "John", "Peter", "Paul", "James", "Jude", "Luke"
+};
+
+    int n = 100; // Initial number of names
 
     printf("Choose an option:\n");
     printf("1. Sort Names\n");
